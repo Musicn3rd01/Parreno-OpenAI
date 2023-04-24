@@ -1,12 +1,12 @@
 # Commented out IPython magic to ensure Python compatibility.
-# %env OPEN_AI_KEY=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
+# %env OPEN_AI_KEY=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
 
 import streamlit as st
 import openai
 
 st.title("Text to Color Generator")
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 def text_to_color(description):
     prompt = f"Convert the following text description to a color: {description}\nColor:"
